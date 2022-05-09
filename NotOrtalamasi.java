@@ -26,7 +26,7 @@ public class NotOrtalamasi {
         muzikNot = input.nextInt();
 
         int notToplam = matematikNot + fizikNot + kimyaNot + turkceNot + tarihNot + muzikNot;
-        float notOrtalama = notToplam / 6f; // ya da 6.0 da diyebilirdik
+        float notOrtalama = notToplam / 6f;
         // double notOrtalama = notToplam / 6.0; //şeklinde de yazabilirdik
         String durum = notOrtalama >60 ? "Sınıfı Geçti" : "Sınıfta Kaldı";
 
