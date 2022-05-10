@@ -10,7 +10,7 @@ public class UcveDortBolunme {
         sayi = input.nextInt();
 
         for (int i = 1 ; i<=sayi;i++){
-            if (i%12==0){
+            if (i%12==0 && i!=0){
                 toplam +=i;
                 sayac++;
             }
