@@ -6,10 +6,10 @@ public class AsalRecursive {
         System.out.print("Sayi Giriniz: ");
         int sayi  = input.nextInt();
         if(is_Asal(sayi,2)){
-            System.out.println("Sayı Asaldır");
+            System.out.println(sayi +" Sayısı Asaldır");
         }
         else {
-            System.out.println("Sayı Asal degildir");
+            System.out.println(sayi +" Sayısı Asal degildir");
         }
 
     }
